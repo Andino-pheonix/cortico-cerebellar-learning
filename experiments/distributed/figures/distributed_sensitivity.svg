@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="620" viewBox="0 0 1450 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:"Microsoft YaHei",Arial,sans-serif}</style>
+<text x="65" y="55" font-size="31" fill="#17334b" text-anchor="start" font-weight="600">学习率敏感性：三个系数、全部五次初始化，保留所有结果</text>
+<text x="65" y="96" font-size="22" fill="#607889" text-anchor="start">单模块使用总系数；联合组各用一半。无事后挑选最佳学习率。</text>
+<text x="110" y="157" font-size="25" fill="#17334b" text-anchor="start" font-weight="600">A  适应末起步误差</text>
+<text x="110" y="187" font-size="19" fill="#607889" text-anchor="start">绝对误差（°）</text>
+<polyline points="110.00,480.00 570.00,480.00" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="98" y="486.0" font-size="18" fill="#17334b" text-anchor="end">0.0</text>
+<polyline points="110.00,388.26 570.00,388.26" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="98" y="394.25688732907065" font-size="18" fill="#17334b" text-anchor="end">17.6</text>
+<polyline points="110.00,296.51 570.00,296.51" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="98" y="302.51377465814136" font-size="18" fill="#17334b" text-anchor="end">35.2</text>
+<polyline points="110.00,204.77 570.00,204.77" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="98" y="210.77066198721212" font-size="18" fill="#17334b" text-anchor="end">52.8</text>
+<polyline points="110.00,205.00 110.00,480.00 570.00,480.00" fill="none" stroke="#607889" stroke-width="1.5"/>
+<text x="340.0" y="545" font-size="21" fill="#17334b" text-anchor="middle">总学习系数（联合组平分）</text>
+<text x="110.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">0.4</text>
+<text x="340.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">0.8</text>
+<text x="570.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">1.6</text>
+<polyline points="110.00,279.03 340.00,424.55 570.00,428.27" fill="none" stroke="#147f9a" stroke-width="3"/>
+<polyline points="110.00,317.18 110.00,240.87" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="106.0" y="275.02562379762776" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="340.00,437.47 340.00,411.63" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="336.0" y="420.5472897479147" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="570.00,440.97 570.00,415.58" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="566.0" y="424.27427262958906" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="110.00,449.78 340.00,463.06 570.00,463.49" fill="none" stroke="#8458b2" stroke-width="3"/>
+<polyline points="110.00,453.43 110.00,446.14" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="106.0" y="445.78374784892094" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="340.00,467.50 340.00,458.62" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="336.0" y="459.0599489964614" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="570.00,467.16 570.00,459.82" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="566.0" y="459.4899138925117" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="110.00,302.06 340.00,353.97 570.00,469.59" fill="none" stroke="#d77734" stroke-width="3"/>
+<polyline points="110.00,318.00 110.00,286.12" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="106.0" y="298.0582209687302" width="8" height="8" rx="0" fill="#d77734"/>
+<polyline points="340.00,382.52 340.00,325.42" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="336.0" y="349.970607529958" width="8" height="8" rx="0" fill="#d77734"/>
+<polyline points="570.00,474.84 570.00,464.33" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="566.0" y="465.5865413253669" width="8" height="8" rx="0" fill="#d77734"/>
+<text x="865" y="157" font-size="25" fill="#17334b" text-anchor="start" font-weight="600">B  适应末终点误差</text>
+<text x="865" y="187" font-size="19" fill="#607889" text-anchor="start">距离误差（mm）</text>
+<polyline points="865.00,480.00 1325.00,480.00" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="853" y="486.0" font-size="18" fill="#17334b" text-anchor="end">0.0</text>
+<polyline points="865.00,390.49 1325.00,390.49" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="853" y="396.48860524121005" font-size="18" fill="#17334b" text-anchor="end">1.2</text>
+<polyline points="865.00,293.52 1325.00,293.52" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="853" y="299.51792758585435" font-size="18" fill="#17334b" text-anchor="end">2.5</text>
+<polyline points="865.00,204.01 1325.00,204.01" fill="none" stroke="#e2e9ee" stroke-width="1"/>
+<text x="853" y="210.0065328270644" font-size="18" fill="#17334b" text-anchor="end">3.7</text>
+<polyline points="865.00,205.00 865.00,480.00 1325.00,480.00" fill="none" stroke="#607889" stroke-width="1.5"/>
+<text x="1095.0" y="545" font-size="21" fill="#17334b" text-anchor="middle">总学习系数（联合组平分）</text>
+<text x="865.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">0.4</text>
+<text x="1095.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">0.8</text>
+<text x="1325.0" y="509.0" font-size="22" fill="#17334b" text-anchor="middle">1.6</text>
+<polyline points="865.00,289.56 1095.00,365.64 1325.00,383.94" fill="none" stroke="#147f9a" stroke-width="3"/>
+<polyline points="865.00,338.26 865.00,240.87" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="861.0" y="285.56235993338726" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="1095.00,389.76 1095.00,341.51" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="1091.0" y="361.6368851428818" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="1325.00,403.62 1325.00,364.25" fill="none" stroke="#147f9a" stroke-width="2"/>
+<rect x="1321.0" y="379.93551754727906" width="8" height="8" rx="0" fill="#147f9a"/>
+<polyline points="865.00,451.31 1095.00,454.03 1325.00,464.55" fill="none" stroke="#8458b2" stroke-width="3"/>
+<polyline points="865.00,457.37 865.00,445.24" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="861.0" y="447.3078911924543" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="1095.00,460.87 1095.00,447.19" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="1091.0" y="450.0314376192904" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="1325.00,470.59 1325.00,458.51" fill="none" stroke="#8458b2" stroke-width="2"/>
+<rect x="1321.0" y="460.5488076684976" width="8" height="8" rx="0" fill="#8458b2"/>
+<polyline points="865.00,315.06 1095.00,348.11 1325.00,410.63" fill="none" stroke="#d77734" stroke-width="3"/>
+<polyline points="865.00,354.65 865.00,275.46" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="861.0" y="311.05565436550125" width="8" height="8" rx="0" fill="#d77734"/>
+<polyline points="1095.00,391.10 1095.00,305.12" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="1091.0" y="344.1091023845646" width="8" height="8" rx="0" fill="#d77734"/>
+<polyline points="1325.00,448.27 1325.00,372.98" fill="none" stroke="#d77734" stroke-width="2"/>
+<rect x="1321.0" y="406.62567217495564" width="8" height="8" rx="0" fill="#d77734"/>
+<polyline points="110.00,588.00 155.00,588.00" fill="none" stroke="#147f9a" stroke-width="3"/>
+<text x="168" y="596" font-size="22" fill="#17334b" text-anchor="start">仅皮层学习</text>
+<polyline points="550.00,588.00 595.00,588.00" fill="none" stroke="#8458b2" stroke-width="3"/>
+<text x="608" y="596" font-size="22" fill="#17334b" text-anchor="start">仅小脑学习</text>
+<polyline points="980.00,588.00 1025.00,588.00" fill="none" stroke="#d77734" stroke-width="3"/>
+<text x="1038" y="596" font-size="22" fill="#17334b" text-anchor="start">联合学习</text>
+</svg>

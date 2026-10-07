@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:"Microsoft YaHei",Arial,sans-serif}</style>
+<text x="60" y="55" font-size="33" fill="#17334b" text-anchor="start" font-weight="600">分布式学习模型：同一回路，分别开放皮层与小脑的输出可塑性</text>
+<text x="60" y="96" font-size="22" fill="#607889" text-anchor="start">四组共享预训练、感觉误差和试次安排；联合组平分总学习系数。</text>
+<rect x="480" y="135" width="580" height="195" rx="8" fill="#f4eff9" stroke="#8458b2" stroke-width="2"/>
+<text x="510" y="177" font-size="27" fill="#8458b2" text-anchor="start" font-weight="600">小脑样模块：48维固定特征展开</text>
+<text x="510" y="221" font-size="24" fill="#17334b" text-anchor="start">可塑部位：输出权重 B</text>
+<text x="510" y="264" font-size="22" fill="#17334b" text-anchor="start">读取目标、时序、计划速度与皮层状态</text>
+<text x="510" y="306" font-size="23" fill="#17334b" text-anchor="start">学到的调整信号回传皮层输入</text>
+<rect x="480" y="410" width="580" height="190" rx="8" fill="#eef6f8" stroke="#147f9a" stroke-width="2"/>
+<text x="510" y="453" font-size="27" fill="#147f9a" text-anchor="start" font-weight="600">M1样模块：64单元储备池式RNN</text>
+<text x="510" y="496" font-size="22" fill="#17334b" text-anchor="start">固定：循环连接、输入连接、基本读出 L₀</text>
+<text x="510" y="536" font-size="24" fill="#17334b" text-anchor="start">可塑部位：读出层增量 ΔL</text>
+<text x="510" y="578" font-size="23" fill="#17334b" text-anchor="start">实际读出 L₀＋ΔL → 二维运动速度</text>
+<rect x="55" y="420" width="300" height="165" rx="8" fill="#f0f5f8"/>
+<text x="80" y="462" font-size="27" fill="#17334b" text-anchor="start" font-weight="600">任务与感觉输入</text>
+<text x="80" y="505" font-size="22" fill="#17334b" text-anchor="start">目标、Go、计划速度</text>
+<text x="80" y="550" font-size="22" fill="#17334b" text-anchor="start">延迟的位置误差</text>
+<rect x="1200" y="410" width="340" height="190" rx="8" fill="#f0f5f8"/>
+<text x="1225" y="453" font-size="26" fill="#17334b" text-anchor="start" font-weight="600">二维“手”与光标</text>
+<text x="1225" y="496" font-size="22" fill="#17334b" text-anchor="start">皮层速度积分 → 位置</text>
+<text x="1225" y="537" font-size="23" fill="#17334b" text-anchor="start">光标旋转30°</text>
+<text x="1225" y="578" font-size="22" fill="#17334b" text-anchor="start">视觉延迟120 ms</text>
+<polyline points="355.00,500.00 480.00,500.00" fill="none" stroke="#147f9a" stroke-width="3"/>
+<polygon points="480.0,500.0 466.0,506.0 466.0,494.0" fill="#147f9a"/>
+<polyline points="1060.00,500.00 1200.00,500.00" fill="none" stroke="#147f9a" stroke-width="3"/>
+<polygon points="1200.0,500.0 1186.0,506.0 1186.0,494.0" fill="#147f9a"/>
+<text x="1130" y="477" font-size="20" fill="#17334b" text-anchor="middle">运动指令</text>
+<polyline points="565.00,410.00 565.00,330.00" fill="none" stroke="#147f9a" stroke-width="3"/>
+<polygon points="565.0,330.0 571.0,344.0 559.0,344.0" fill="#147f9a"/>
+<text x="547" y="381" font-size="20" fill="#147f9a" text-anchor="end">状态副本</text>
+<polyline points="960.00,330.00 960.00,410.00" fill="none" stroke="#8458b2" stroke-width="5"/>
+<polygon points="960.0,410.0 954.0,396.0 966.0,396.0" fill="#8458b2"/>
+<text x="980" y="381" font-size="21" fill="#8458b2" text-anchor="start">回传信号</text>
+<rect x="480" y="695" width="580" height="100" rx="8" fill="#fff4e9" stroke="#d77734" stroke-width="2"/>
+<text x="510" y="735" font-size="23" fill="#d77734" text-anchor="start" font-weight="600">共享教学误差：期望速度 − 延迟观测速度</text>
+<text x="510" y="774" font-size="21" fill="#17334b" text-anchor="start">与过去特征配对；试次结束后更新允许的权重</text>
+<polyline points="1370.00,600.00 1370.00,745.00 1060.00,745.00" fill="none" stroke="#d77734" stroke-width="3"/>
+<polygon points="1060.0,745.0 1074.0,739.0 1074.0,751.0" fill="#d77734"/>
+<polyline points="690.00,695.00 690.00,600.00" fill="none" stroke="#d77734" stroke-width="3"/>
+<polygon points="690.0,600.0 696.0,614.0 684.0,614.0" fill="#d77734"/>
+<polyline points="480.00,745.00 430.00,745.00 430.00,232.00 480.00,232.00" fill="none" stroke="#d77734" stroke-width="3"/>
+<polygon points="480.0,232.0 466.0,238.0 466.0,226.0" fill="#d77734"/>
+<text x="60" y="850" font-size="24" fill="#17334b" text-anchor="start" font-weight="600">仅反馈：0／0　　仅皮层：0.8／0　　仅小脑：0／0.8　　联合：0.4／0.4</text>
+<text x="60" y="893" font-size="22" fill="#607889" text-anchor="start">系数顺序为皮层／小脑。可塑参数量分别为258、96、354；这是功能抽象与局部更新规则。</text>
+</svg>
