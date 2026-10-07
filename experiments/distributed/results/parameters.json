@@ -1,0 +1,52 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "main_rate": 0.8,
+  "sensitivity_rates": [
+    0.4,
+    0.8,
+    1.6
+  ],
+  "arms": {
+    "feedback": [
+      0.0,
+      0.0
+    ],
+    "cortex": [
+      1.0,
+      0.0
+    ],
+    "cerebellum": [
+      0.0,
+      1.0
+    ],
+    "joint": [
+      0.5,
+      0.5
+    ]
+  },
+  "dt_s": 0.01,
+  "duration_s": 0.8,
+  "distance_m": 0.1,
+  "delay_s": 0.12,
+  "retention": 0.999,
+  "normalization_floor": 0.1,
+  "cortical_plasticity": "readout residual only; recurrent/input connections fixed",
+  "cb_plasticity": "output weights of fixed feature expansion",
+  "update": "normalized feature x delayed velocity error; applied at trial end",
+  "matching": "same pretrained model; same trial schedule, error and total rate; joint splits rate 1/2 each",
+  "caveat": "plastic parameter counts differ: cortex 258, CB 96, joint 354. Equal total rate is not equal effective function change.",
+  "rotation_deg": 30.0,
+  "phases": [
+    20,
+    80,
+    20
+  ],
+  "hidden_units": 64,
+  "cb_features": 48
+}

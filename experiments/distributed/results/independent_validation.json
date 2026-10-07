@@ -1,0 +1,188 @@
+{
+  "shared_pretrained_cortex_per_seed": true,
+  "pretraining_repeatability_difference": 0.0,
+  "trial_count": 2400,
+  "checks": [
+    {
+      "seed": 11,
+      "arm": "feedback",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 11,
+      "arm": "cortex",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 5.684341886080802e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 11,
+      "arm": "cerebellum",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 3.247402347028583e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 11,
+      "arm": "joint",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 22,
+      "arm": "feedback",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 22,
+      "arm": "cortex",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 22,
+      "arm": "cerebellum",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 5.684341886080802e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 22,
+      "arm": "joint",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 33,
+      "arm": "feedback",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 33,
+      "arm": "cortex",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 33,
+      "arm": "cerebellum",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 33,
+      "arm": "joint",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 44,
+      "arm": "feedback",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 7.105427357601002e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 44,
+      "arm": "cortex",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 44,
+      "arm": "cerebellum",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 3.6692870963861424e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 44,
+      "arm": "joint",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 55,
+      "arm": "feedback",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 55,
+      "arm": "cortex",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 55,
+      "arm": "cerebellum",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 2.842170943040401e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    },
+    {
+      "seed": 55,
+      "arm": "joint",
+      "checkpoint_replay_difference": 0.0,
+      "no_theta_or_future_observation_leak": true,
+      "cortex_only_plant_route_error_mm": 4.263256414560601e-14,
+      "probes_preserve_both_learned_weight_sets": true,
+      "double_reset_restores_pretrained_feedback": true
+    }
+  ],
+  "notes": "cortex_reset removes only learned readout residual; it is not M1 ablation. Equal rates do not match feature Jacobians or parameter counts."
+}
