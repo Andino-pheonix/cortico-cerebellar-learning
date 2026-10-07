@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "reference_data_unchanged": true,
+  "tolerance": 1e-06,
+  "coefficients_match": true,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "operating_system": "Windows",
+  "csv_comparisons": {
+    "distributed/trial_metrics.csv": {
+      "rows": 2400,
+      "max_numeric_difference": 0.0
+    },
+    "distributed/probe_metrics.csv": {
+      "rows": 200,
+      "max_numeric_difference": 0.0
+    },
+    "distributed/rate_sensitivity.csv": {
+      "rows": 45,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/search_per_seed.csv": {
+      "rows": 1430,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/search_aggregate.csv": {
+      "rows": 286,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/test_trials.csv": {
+      "rows": 3000,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/test_probes.csv": {
+      "rows": 250,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/test_per_seed.csv": {
+      "rows": 25,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/test_paired_differences.csv": {
+      "rows": 15,
+      "max_numeric_difference": 0.0
+    },
+    "tuning/probe_paired_changes.csv": {
+      "rows": 15,
+      "max_numeric_difference": 0.0
+    }
+  }
+}
