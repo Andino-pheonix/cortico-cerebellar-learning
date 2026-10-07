@@ -1,0 +1,39 @@
+{
+  "train_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "test_seeds": [
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "coarse_rates": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8,
+    1.2,
+    1.6,
+    2.4,
+    3.2
+  ],
+  "objective": "0.25*(late absolute early/5deg + late endpoint/1mm + adaptation mean absolute early/30deg + adaptation mean endpoint/15.3mm)",
+  "selection": "minimum mean objective across training seeds, all seeds must pass stability; select global, positive joint, cortex-only and CB-only",
+  "stability": "predefined numerical/behavior screening, not a dynamics proof: no CB clipping; adaptation max absolute early <=60deg and endpoint <=50mm; all120 trials states/weights/metrics finite",
+  "refinement": "7x7 linear grids between neighboring coarse rates around up to 3 best joint candidates; 13-point solo refinements; candidates chosen using train only",
+  "task": "unchanged 20 baseline + 80 rotation30deg +20 washout; dt10ms duration800ms delay120ms",
+  "fixed": "retention .999, network, teaching and update rules unchanged; vary only eta_C, eta_CB",
+  "test_policy": "freeze selected rates before new seeds; no post-test retuning; network-initialization holdout only, same task",
+  "weighting": "equal four normalized terms; analyst-selected pragmatic priorities, no universal optimum",
+  "claim": "best tested coefficients under this objective/domain, not global or biological optimum",
+  "amendment_before_holdout": "After initial training-only search found joint and CB optima at upper boundary3.2, added conditional two-level range extensions up to25.6; objective, thresholds and held-out seeds unchanged. No test results inspected."
+}

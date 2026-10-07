@@ -1,0 +1,12 @@
+{
+  "max_abs_metric_difference": 2.204902926905561e-13,
+  "max_final_weight_difference": 3.382710778154774e-16,
+  "clip_counts_identical": true,
+  "per_pair": [
+    8.526512829121202e-14,
+    2.2026824808563106e-13,
+    1.8118839761882555e-13,
+    2.204902926905561e-13
+  ],
+  "tolerance": 1e-07
+}

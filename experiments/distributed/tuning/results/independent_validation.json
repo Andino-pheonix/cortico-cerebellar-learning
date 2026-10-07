@@ -1,0 +1,18 @@
+{
+  "train_test_seeds_disjoint": true,
+  "selection_recomputed_from_train_only": true,
+  "all_test_conditions_use_frozen_rates": true,
+  "same_pretrained_maps_per_test_seed": true,
+  "all_250_probes_replayed_and_weights_frozen": true,
+  "all_metrics_and_checkpoints_finite": true,
+  "no_rotation_leakage_before_delayed_feedback": true,
+  "only_cortical_output_drives_body": true,
+  "joint_improves_all5_test_seeds_vs_tuned_CB_for_late_errors_and_objective": true,
+  "each_module_removal_worsens_both_errors_all5_seeds": true,
+  "max_independent_recompute_difference": 7.105427357601002e-14,
+  "train_candidates": 286,
+  "train_trials": 171600,
+  "heldout_trials": 3000,
+  "heldout_probes": 250,
+  "pareto_candidates": 29
+}
