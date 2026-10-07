@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="830" viewBox="0 0 1640 830">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:"Microsoft YaHei",Arial,sans-serif}</style>
+<text x="60" y="57" font-size="32" fill="#17334b" text-anchor="start" font-weight="600">联合学习的贡献检验：撤除两处学习作用后发生什么？</text>
+<text x="60" y="99" font-size="22" fill="#647c8f" text-anchor="start">新5次初始化 · 第100次更新后的固定检查点 · 探测期间冻结学习 · 误差取逐种子绝对值</text>
+<text x="100" y="193" font-size="25" fill="#17334b" text-anchor="start" font-weight="600">A  起步方向误差</text>
+<text x="100" y="222" font-size="19" fill="#647c8f" text-anchor="start">绝对角误差（°）</text>
+<polyline points="100.00,535.00 550.00,535.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="90" y="541.0" font-size="18" fill="#17334b" text-anchor="end">0.0</text>
+<polyline points="100.00,460.00 550.00,460.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="90" y="466.0" font-size="18" fill="#17334b" text-anchor="end">10.0</text>
+<polyline points="100.00,385.00 550.00,385.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="90" y="391.0" font-size="18" fill="#17334b" text-anchor="end">20.0</text>
+<polyline points="100.00,310.00 550.00,310.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="90" y="316.0" font-size="18" fill="#17334b" text-anchor="end">30.0</text>
+<polyline points="100.00,235.00 550.00,235.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="90" y="241.0" font-size="18" fill="#17334b" text-anchor="end">40.0</text>
+<polyline points="100.00,235.00 100.00,535.00 550.00,535.00" fill="none" stroke="#647c8f" stroke-width="1.5"/>
+<text x="325.0" y="596" font-size="21" fill="#17334b" text-anchor="middle">冻结探测</text>
+<rect x="129.25" y="534.2103932819919" width="54" height="0.7896067180081445" rx="0" fill="#e16a25"/>
+<polyline points="156.25,534.94 156.25,533.48" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="156.25" y="521.4776939672896" font-size="20" fill="#17334b" text-anchor="middle">0.11</text>
+<text x="156.25" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">完整</text>
+<rect x="241.75" y="343.61969842794383" width="54" height="191.38030157205617" rx="0" fill="#147f9a"/>
+<polyline points="268.75,350.24 268.75,336.99" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="268.75" y="324.99471099085747" font-size="20" fill="#17334b" text-anchor="middle">25.52</text>
+<text x="268.75" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">阻断小脑</text>
+<rect x="354.25" y="499.91739879535294" width="54" height="35.08260120464706" rx="0" fill="#8458b2"/>
+<polyline points="381.25,503.66 381.25,496.17" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="381.25" y="484.1703953456812" font-size="20" fill="#17334b" text-anchor="middle">4.68</text>
+<text x="381.25" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">撤除皮层增量</text>
+<rect x="466.75" y="307.8203551130059" width="54" height="227.17964488699408" rx="0" fill="#647c8f"/>
+<polyline points="493.75,309.89 493.75,305.75" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="493.75" y="293.74887118006814" font-size="20" fill="#17334b" text-anchor="middle">30.29</text>
+<text x="493.75" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">两者撤除</text>
+<text x="660" y="193" font-size="25" fill="#17334b" text-anchor="start" font-weight="600">B  终点距离误差</text>
+<text x="660" y="222" font-size="19" fill="#647c8f" text-anchor="start">距离误差（mm）</text>
+<polyline points="660.00,535.00 1110.00,535.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="650" y="541.0" font-size="18" fill="#17334b" text-anchor="end">0.0</text>
+<polyline points="660.00,460.00 1110.00,460.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="650" y="466.0" font-size="18" fill="#17334b" text-anchor="end">5.0</text>
+<polyline points="660.00,385.00 1110.00,385.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="650" y="391.0" font-size="18" fill="#17334b" text-anchor="end">10.0</text>
+<polyline points="660.00,310.00 1110.00,310.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="650" y="316.0" font-size="18" fill="#17334b" text-anchor="end">15.0</text>
+<polyline points="660.00,235.00 1110.00,235.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="650" y="241.0" font-size="18" fill="#17334b" text-anchor="end">20.0</text>
+<polyline points="660.00,235.00 660.00,535.00 1110.00,535.00" fill="none" stroke="#647c8f" stroke-width="1.5"/>
+<text x="885.0" y="596" font-size="21" fill="#17334b" text-anchor="middle">冻结探测</text>
+<rect x="689.25" y="533.8375019000221" width="54" height="1.1624980999779382" rx="0" fill="#e16a25"/>
+<polyline points="716.25,534.15 716.25,533.52" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="716.25" y="521.5211207146489" font-size="20" fill="#17334b" text-anchor="middle">0.08</text>
+<text x="716.25" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">完整</text>
+<rect x="801.75" y="310.7001634445904" width="54" height="224.29983655540963" rx="0" fill="#147f9a"/>
+<polyline points="828.75,311.61 828.75,309.79" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="828.75" y="297.79490733534345" font-size="20" fill="#17334b" text-anchor="middle">14.95</text>
+<text x="828.75" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">阻断小脑</text>
+<rect x="914.25" y="528.428481333057" width="54" height="6.571518666943007" rx="0" fill="#8458b2"/>
+<polyline points="941.25,529.09 941.25,527.76" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="941.25" y="515.7637871458699" font-size="20" fill="#17334b" text-anchor="middle">0.44</text>
+<text x="941.25" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">撤除皮层增量</text>
+<rect x="1026.75" y="305.48418199325477" width="54" height="229.51581800674523" rx="0" fill="#647c8f"/>
+<polyline points="1053.75,306.37 1053.75,304.60" fill="none" stroke="#17334b" stroke-width="2"/>
+<text x="1053.75" y="292.59653563058515" font-size="20" fill="#17334b" text-anchor="middle">15.30</text>
+<text x="1053.75" y="563.0" font-size="18" fill="#17334b" text-anchor="middle">两者撤除</text>
+<text x="1200" y="198" font-size="24" fill="#17334b" text-anchor="start" font-weight="600">C  配对验证目标分数</text>
+<text x="1200" y="231" font-size="20" fill="#647c8f" text-anchor="start">同种子比较；越低越好</text>
+<text x="1210" y="263" font-size="25" fill="#17334b" text-anchor="start" font-weight="600"></text>
+<text x="1210" y="292" font-size="19" fill="#647c8f" text-anchor="start">综合目标</text>
+<polyline points="1210.00,535.00 1510.00,535.00" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="1200" y="541.0" font-size="18" fill="#17334b" text-anchor="end">0.0</text>
+<polyline points="1210.00,457.68 1510.00,457.68" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="1200" y="463.6822093079238" font-size="18" fill="#17334b" text-anchor="end">0.11</text>
+<polyline points="1210.00,380.36 1510.00,380.36" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="1200" y="386.3644186158476" font-size="18" fill="#17334b" text-anchor="end">0.22</text>
+<polyline points="1210.00,303.05 1510.00,303.05" fill="none" stroke="#e1e9ee" stroke-width="1"/>
+<text x="1200" y="309.0466279237715" font-size="18" fill="#17334b" text-anchor="end">0.33</text>
+<polyline points="1210.00,305.00 1210.00,535.00 1510.00,535.00" fill="none" stroke="#647c8f" stroke-width="1.5"/>
+<text x="1360.0" y="596" font-size="21" fill="#17334b" text-anchor="middle">条件</text>
+<polyline points="1285.00,354.13 1435.00,508.51" fill="none" stroke="#b4c2cc" stroke-width="2"/>
+<circle cx="1285.0" cy="354.13422683305697" r="5" fill="#8458b2"/>
+<circle cx="1435.0" cy="508.51267718147636" r="5" fill="#e16a25"/>
+<polyline points="1285.00,351.00 1435.00,512.72" fill="none" stroke="#b4c2cc" stroke-width="2"/>
+<circle cx="1285.0" cy="351.0" r="5" fill="#8458b2"/>
+<circle cx="1435.0" cy="512.7190929629113" r="5" fill="#e16a25"/>
+<polyline points="1285.00,376.85 1435.00,500.14" fill="none" stroke="#b4c2cc" stroke-width="2"/>
+<circle cx="1285.0" cy="376.8467385415818" r="5" fill="#8458b2"/>
+<circle cx="1435.0" cy="500.13617627779087" r="5" fill="#e16a25"/>
+<polyline points="1285.00,364.01 1435.00,508.62" fill="none" stroke="#b4c2cc" stroke-width="2"/>
+<circle cx="1285.0" cy="364.0062083495382" r="5" fill="#8458b2"/>
+<circle cx="1435.0" cy="508.62151240725274" r="5" fill="#e16a25"/>
+<polyline points="1285.00,372.09 1435.00,502.27" fill="none" stroke="#b4c2cc" stroke-width="2"/>
+<circle cx="1285.0" cy="372.08782344767206" r="5" fill="#8458b2"/>
+<circle cx="1435.0" cy="502.26733425450334" r="5" fill="#e16a25"/>
+<text x="1285.0" y="564" font-size="20" fill="#17334b" text-anchor="middle">调优小脑</text>
+<text x="1435.0" y="564" font-size="20" fill="#17334b" text-anchor="middle">调优联合</text>
+<text x="1210" y="645" font-size="18" fill="#647c8f" text-anchor="start">五条连线对应五次初始化</text>
+<text x="60" y="713" font-size="22" fill="#17334b" text-anchor="start">撤除皮层增量保留基本读出与循环网络；阻断小脑只撤除回传信号，权重仍保留。</text>
+<text x="60" y="756" font-size="21" fill="#647c8f" text-anchor="start">干预作用是当前检查点的指标依赖结果；贡献不按系数比或权重范数相加，也不等同真实脑区能力。</text>
+</svg>
