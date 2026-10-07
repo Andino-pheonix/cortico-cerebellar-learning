@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+reproduced/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.key
+*.pem
+private/
+*.zip

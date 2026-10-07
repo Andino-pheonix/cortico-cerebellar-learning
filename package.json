@@ -1,0 +1,8 @@
+{
+  "name": "cortico-cerebellar-learning-figures",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional SVG-to-PNG rendering for a computational teaching experiment.",
+  "scripts": {"render": "node tools/render_png.cjs"},
+  "dependencies": {"sharp": "0.35.4"}
+}
